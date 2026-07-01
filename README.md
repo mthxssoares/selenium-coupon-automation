@@ -109,23 +109,16 @@ Antes de executar o projeto, é necessário ter instalado:
 
 ## Como executar o projeto
 
-Clone o repositório:
+Após baixar ou clonar o repositório, acesse a pasta raiz do projeto, onde está localizado o arquivo `pom.xml`.
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+Caso tenha baixado o projeto em formato `.zip`, extraia o arquivo e abra a pasta do projeto na sua IDE, como IntelliJ IDEA ou VS Code.
 
-Acesse a pasta do projeto:
+A estrutura principal deve conter:
 
-```bash
-cd SeleniumTest
-```
-
-Execute os testes com Maven:
-
-```bash
-mvn test
-```
+```text
+src/
+pom.xml
+README.md
 
 ---
 
